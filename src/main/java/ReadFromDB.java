@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ReadFromDB {
     String url = "jdbc:mysql://localhost:3306/moviedb?autoReconnet=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
     String user = "root";
-    String password = "jjxuyaosheng1027";
+    String password = "123456";
 
    public JSONObject read(ArrayList<String> col, String table) {
        JSONObject result = new JSONObject();
